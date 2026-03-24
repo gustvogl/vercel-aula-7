@@ -1,0 +1,26 @@
+{
+    "name": "backend-haruy-sushi",
+    "version": "1.0.0",
+    "description": "API REST Haruy Sushi — Aula 6: Middlewares e Tratamento de Erros",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [
+        "api",
+        "sushi",
+        "backend",
+        "middleware"
+    ],
+    "author": "Adriano",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.6",
+        "express": "^4.22.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "type": "commonjs"
+}
